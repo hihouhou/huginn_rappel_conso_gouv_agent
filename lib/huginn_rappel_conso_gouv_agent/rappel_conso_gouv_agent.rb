@@ -58,7 +58,7 @@ module Agents
       {
         'debug' => 'false',
         'expected_receive_period_in_days' => '2',
-        'number_of_result' => '',
+        'number_of_result' => '10',
         'changes_only' => 'true'
       }
     end
@@ -141,7 +141,7 @@ module Agents
                 log recordid
               end
               last_status['records'].each do |recordidbis|
-                if recordid == recordidbis
+                if recordid['recordid'] == recordidbis['recordid']
                   found = true
                 end
                 if interpolated['debug'] == 'true'
