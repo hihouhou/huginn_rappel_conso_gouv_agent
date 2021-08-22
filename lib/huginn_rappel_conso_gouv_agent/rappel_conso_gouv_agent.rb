@@ -23,35 +23,36 @@ module Agents
 
     event_description <<-MD
       Events look like this:
-        {
-          "datasetid": "rappelconso0",
-          "recordid": "2eec1943f5368c400d8e7def8264ca40e4c7a3e2",
-          "fields": {
-            "conditionnements": "barquette 125g x2",
-            "motif_du_rappel": "présence de morceaux de plastiques bleus",
-            "distributeurs": "Novoviande",
-            "temperature_de_conservation": "Produit à conserver au réfrigérateur",
-            "zone_geographique_de_vente": "France entière",
-            "date_de_fin_de_la_procedure_de_rappel": "mercredi 7 juillet 2021",
-            "ndeg_de_version": 1,
-            "marque_de_salubrite": "FR 13.097.003 CE",
-            "nature_juridique_du_rappel": "Volontaire",
-            "identification_des_produits": "21151-4509 Date limite de consommation 08/06/2021",
-            "nom_de_la_marque_du_produit": "La belle nature",
-            "preconisations_sanitaires": "En raison du risque de blessures / effets indésirables suite à l'ingestion de ce produit, par précaution il est recommandé aux personnes qui détiendraient des produits appartenant au(x) lot(s) décrit(s) ci-dessus de ne pas les consommer.",
-            "date_debut_fin_de_commercialisation": "Du 31/05/2021 au 08/06/2021",
-            "conduites_a_tenir_par_le_consommateur": "Ne plus consommer",
-            "modalites_de_compensation": "Remboursement",
-            "noms_des_modeles_ou_references": "Steak haché 5% X2 125G",
-            "categorie_de_produit": "Alimentation",
-            "sous_categorie_de_produit": "Viandes",
-            "reference_fiche": "2021-06-0295",
-            "risques_encourus_par_le_consommateur": "Inertes (verre, métal, plastique, papier, textile…)",
-            "date_ref": "2021-06",
-            "numero_de_contact": "0490478930"
-          },
-          "record_timestamp": "2021-06-15T01:00:00.756+02:00"
-        }
+
+          {
+            "datasetid": "rappelconso0",
+            "recordid": "2eec1943f5368c400d8e7def8264ca40e4c7a3e2",
+            "fields": {
+              "conditionnements": "barquette 125g x2",
+              "motif_du_rappel": "présence de morceaux de plastiques bleus",
+              "distributeurs": "Novoviande",
+              "temperature_de_conservation": "Produit à conserver au réfrigérateur",
+              "zone_geographique_de_vente": "France entière",
+              "date_de_fin_de_la_procedure_de_rappel": "mercredi 7 juillet 2021",
+              "ndeg_de_version": 1,
+              "marque_de_salubrite": "FR 13.097.003 CE",
+              "nature_juridique_du_rappel": "Volontaire",
+              "identification_des_produits": "21151-4509 Date limite de consommation 08/06/2021",
+              "nom_de_la_marque_du_produit": "La belle nature",
+              "preconisations_sanitaires": "En raison du risque de blessures / effets indésirables suite à l'ingestion de ce produit, par précaution il est recommandé aux personnes qui détiendraient des produits appartenant au(x) lot(s) décrit(s) ci-dessus de ne pas les consommer.",
+              "date_debut_fin_de_commercialisation": "Du 31/05/2021 au 08/06/2021",
+              "conduites_a_tenir_par_le_consommateur": "Ne plus consommer",
+              "modalites_de_compensation": "Remboursement",
+              "noms_des_modeles_ou_references": "Steak haché 5% X2 125G",
+              "categorie_de_produit": "Alimentation",
+              "sous_categorie_de_produit": "Viandes",
+              "reference_fiche": "2021-06-0295",
+              "risques_encourus_par_le_consommateur": "Inertes (verre, métal, plastique, papier, textile…)",
+              "date_ref": "2021-06",
+              "numero_de_contact": "0490478930"
+            },
+            "record_timestamp": "2021-06-15T01:00:00.756+02:00"
+          }
     MD
 
     def default_options
