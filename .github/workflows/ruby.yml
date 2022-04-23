@@ -26,8 +26,8 @@ jobs:
           ruby-version: '2.7'
       - name: Install dependencies
         run: bundle install
-      - name: Rubocop
-        run: rubocop        
+#      - name: Rubocop
+#        run: rubocop        
       - name: Run tests
         run: bundle exec rake
         
