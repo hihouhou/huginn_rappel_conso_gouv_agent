@@ -98,7 +98,7 @@ module Agents
     private
 
     def fetch
-      uri = URI.parse("https://data.economie.gouv.fr/api/records/1.0/search/?dataset=rappelconso0&q=&rows=#{interpolated['number_of_result']}&sort=date_ref")
+      uri = URI.parse("https://data.economie.gouv.fr/api/records/1.0/search/?dataset=rappelconso0&q=&rows=#{interpolated['number_of_result']}&sort=date_de_publication")
       request = Net::HTTP::Get.new(uri)
       request["Authority"] = "data.economie.gouv.fr"
       request["Accept"] = "application/json, text/plain, */*"
